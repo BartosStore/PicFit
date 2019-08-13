@@ -12,14 +12,15 @@
 
     <ImageView
         android:id="@+id/ivPhoto"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:src="@drawable/ic_person" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vyfoť se,\nslož koláž\nsdílej jí s ostatními."
+        android:text="Vyfoť se,\nslož koláž,\nsdílej jí s ostatními."
+        android:textSize="20dp"
         android:textStyle="bold" />
 
 </LinearLayout>
